@@ -1,8 +1,10 @@
 <?php
 header('Content-type: text/plain');
 echo "Anibal Coral";
-echo "\nHostName: " . gethostname(); 
-echo "\nServidor HTTP: " . $_SERVER['HTTP_USER_AGENT'];
-echo "\nPHP Info:\n";
-phpinfo(); 
+echo "\n\nHostName: " . gethostname(); 
+echo "\n\nServidor HTTP: " . $_SERVER['HTTP_USER_AGENT'];
+echo "\n\nUname: " . php_uname('n');
+echo "\n\nBrowser:" . $_SERVER['HTTP_USER_AGENT'] . "\n\n";
+echo "\n\n\nFuncionou !!!!";
+
 ?>
