@@ -1,8 +1,5 @@
-<html>
- <head>
-  <title>Demonstração OpenShift - RedHat</title>
- </head>
- <body>
- <p>Olá Mundo\n</p>
- <p>Anibal</p>
-</html>
+
+<?php
+echo "My HostName: " . gethostname(); 
+echo "\n"
+?>
