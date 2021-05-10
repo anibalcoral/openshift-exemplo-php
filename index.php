@@ -1,9 +1,8 @@
-
 <?php
-echo "Anibal Coral\n";
+echo "Anibal Coral";
+echo "\n";
 echo "HostName: " . gethostname(); 
 echo "\n";
-echo "Dados do PHP:\n";
-phpinfo();
-
+echo "Servidor HTTP:" . $_SERVER['HTTP_USER_AGENT'];
+echo "\n";
 ?>
